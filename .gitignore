@@ -1,0 +1,25 @@
+# Build / IDE
+bin/
+obj/
+out/
+.vs/
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# User secrets (usa dotnet user-secrets en lugar de subirlos)
+**/secrets.json
+
+# Coverage / tools
+coverage/
+TestResults/
+*.coverage
+*.coveragexml
+
+# Publish artifacts
+publish/
